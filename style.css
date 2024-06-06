@@ -1,0 +1,677 @@
+
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: 100px;
+    width: 100%;
+
+}
+.firsthalf{
+    width: 40%;
+    height: 100px;
+    float: left;
+    padding-top: 50px;
+}
+.secondhalf{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+#image1{
+    height:110px;
+    width: 120px;
+    padding-left: 70px;
+}
+.thirdhalf{
+    width: 40%;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+    
+}
+.thirdtop{
+    padding-left: 300px;
+}
+.thirdbottom{
+    padding-left: 100px;
+    padding-top: 10px;
+
+}
+
+
+#our{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #5c3327;
+    font-family: sofia-pro,sans-serif;
+    font-size: 16px;
+    letter-spacing: -.16px;
+}
+#tips{
+    padding-left: 60px;
+    text-decoration: none;
+    color: #5c3327;
+    font-family: sofia-pro,sans-serif;
+    font-size: 16px;
+    letter-spacing: -.16px;
+}
+#about{
+padding-left: 25px;
+text-decoration: none;
+color: #5c3327;
+font-family: sofia-pro,sans-serif;
+font-size: 16px;
+letter-spacing: -.16px;
+}
+#quality{
+padding-left: 70px;
+text-decoration: none;
+color: #5c3327;
+font-family: "sofia-pro,sans-serif";
+font-size: 16px;
+letter-spacing: -.16px;
+}
+#img1{
+    height: 20px;
+    width: 20px;
+}#img2{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+}
+
+#img3{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+
+}
+#img4{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+
+}
+.body1{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-image: url("nw-bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.innerbody{
+    display: flex;
+    flex-direction: row;
+    width: 1150px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.body11{
+    height:180px ;
+    width: 800px;
+    float: left;
+    margin-top: 70px;
+    padding-left: 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#F3CC4D;
+    padding-top: 100px;
+            
+}
+
+#para1{
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+}
+.btn1{
+    width: 200px;
+    height: 55px;
+    font-family: "Ferrero StrettoFondente", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #5c3327;
+    font-size: 14px;
+    letter-spacing: 4.38px;
+    text-align: center;
+    border: none;
+    background-color:#d5ac5b;
+    
+}
+.body12{
+    width: 1500px;
+    height: 500px;
+    float: left;
+   
+}
+#b1v1{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.body13{
+float: left;
+height: 250px;
+width: 700px;
+position: absolute;
+padding-top: 40px;
+padding-left: 130px;
+}
+#b1h1{
+    font-family:""Cormorant Infant",serif";
+    font-size: 46px;
+    line-height: 1.05;
+    letter-spacing: -1.2px;
+    color:#F3CC4D ;
+}
+.body2outer{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+    
+
+.body2{
+    position: absolute;
+height: 500px;
+width: 1100px;
+float: left;
+margin-top: 100px;
+background-image:url("nw-bg1.jpg") ;  
+background-repeat: no-repeat;  
+background-size: cover;
+margin-left: 200px;
+}
+.body21{
+    z-index: 2;
+    position: absolute;
+    height: 550px;
+    width: 50%;
+    float: left;
+}
+#b2i1{
+    height: 450px;
+    width: 600px;
+
+
+}
+.body22{
+    z-index: 1;
+    margin-left: 550px;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin-top: 50px;
+    border-style: solid;
+    border-color:#F3CC4D ;
+    border-width: 1px;
+}
+
+#b2h1{
+font-size: 14px;
+letter-spacing: 6px;
+color: #d5ac5b;
+padding-left: 100px;
+padding-top: 80px;
+}
+
+#b2p{
+color: #5c3327;
+font-size: 60px;
+letter-spacing: -0.9px;
+font-family: "Cormorant Infant", serif;
+text-align: justify;
+}
+#btn2{
+    width: 200px;
+    height: 55px;
+    font-family: "Ferrero StrettoFondente", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #5c3327;
+    font-size: 14px;
+    letter-spacing: 4.38px;
+    text-align: center;
+    border: none;
+    background-color:#d5ac5b;
+}
+.body3{
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+
+}
+#h31{
+text-align: center;
+letter-spacing: 6px;
+color:#d5ac5b ;
+font-size: 14px;
+font-family: "Ferrero StrettoGentile", sans-serif;
+}
+#h32{
+text-align: center;
+letter-spacing: -0.9px;
+font-size: 32px;
+font-family: "Cormorant Infant", serif;
+color: #5c3327;
+}
+.body4{
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+.b4d1{
+    float: left;
+    height: 350px;
+    width: 20%;
+    margin-left: 240px;
+    
+}
+
+#b4i1{
+    width: 267px;
+}
+#b4h1{
+    letter-spacing: -0.2px;
+    font-size: 24px;
+    font-family: "Cormorant Infant", serif;
+    color: #5c3327;
+    text-align: center;
+}
+.b4d2{
+    float: left;
+    height: 350px;
+    width: 20%;
+    margin-left: 40px;
+}
+#b4i2{
+    width: 267px;
+}
+#b4h2{
+    letter-spacing: -0.2px;
+    font-size: 24px;
+    font-family: "Cormorant Infant", serif;
+    color: #5c3327;
+    text-align: center;
+}
+.b4d3{
+    float: left;
+    height: 350px;
+    width: 20%;
+    margin-left: 40px;
+}
+#b4i3{
+    width: 267px;
+}
+#b4h3{
+    letter-spacing: -0.2px;
+    font-size: 24px;
+    font-family: "Cormorant Infant", serif;
+    color: #5c3327;
+    text-align: center;
+}
+#b4btn{
+    width: 180px;
+    height: 50px;
+    font-family: "Ferrero StrettoFondente", sans-serif;
+    font-size: 14px;
+    letter-spacing: 4.38px;
+    color: #5c3327;
+    padding-left: 15px;
+    margin-left: 43px;
+    margin-top: 45px;
+    background-color: #d5ac5b;
+    border: none;
+}
+.body5{
+    width: 100%;
+    height: 200px;
+    float: left;
+    
+}
+#b5h1{
+    font-family: "Ferrero StrettoGentile", sans-serif;
+    font-size: 14px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #d5ac5b;
+    padding-top: 100px;
+}
+#b5h2{
+    font-family: "Cormorant Infant", serif;
+    font-size: 40px;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #5c3327;
+}
+
+.body6{
+    float: left;
+    width: 100%;
+    height: 600px;
+    padding-top: 0px;
+}
+.b6d1{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin-left: 45px;
+    margin-top: 100px;
+}
+#b6i1{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+#b6t1{
+    position: absolute;
+    font-family: "Cormorant Infant", serif;
+    letter-spacing: -0.56px;
+    font-size: 26px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+.b6d2{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin-left: 15px;
+    margin-top: 100px;
+
+}
+#b6i2{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+.b6d3{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #5bd598;
+    margin-left: 15px;
+    margin-top: 100px;
+
+}
+#b6i3{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+.b6d4{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #d5925b;
+    margin-left: 15px;
+    margin-top: 100px;
+
+}
+#b6i4{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+
+#b6t2{
+    position: absolute;
+    font-family: "Cormorant Infant", serif;
+    letter-spacing: -0.56px;
+    font-size: 24px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+#b6t3{
+    position: absolute;
+    font-family: "Cormorant Infant", serif;
+    letter-spacing: -0.56px;
+    font-size: 24px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+#b6t4{
+    position: absolute;
+    font-family: "Cormorant Infant", serif;
+    letter-spacing: -0.56px;
+    font-size: 24px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+#b6h5{
+    float: left;
+    font-family: "Ferrero StrettoGentile",sans-serif;
+    font-size: 14px;
+    color: #5c3327;
+    letter-spacing: 3px;
+    padding-top: 90px;
+    padding-left: 45%;
+}
+.body7{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+#b7h1{
+    text-align: center;
+    font-family: "Ferrero StrettoGentile", sans-serif;
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: #d5ac5b;
+    padding-top: 180px;
+
+}
+#b7h2{
+    text-align: center;
+    font-size: 42px;
+    font-family: "Cormorant Infant", serif;
+    color: #5c3327;
+    letter-spacing: -0.9px;
+}
+.body8{
+    float: left;
+    width: 100%;
+    height: 410px;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.b8d1{
+    float: left;
+    height: 350px;
+    width: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#F3CC4D;
+    border-radius: 15px;
+}
+.b8i1{
+    height: 330px;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url("https://www.ferrerorocher.com/us/sites/ferrerorocher20_us/files/2021-11/200803_bb_ferrerorocher15811x1-410x410.jpg?t=1714481071");
+}
+.icon1{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: solid;
+    border-bottom-right-radius: 10px;
+
+    border-top: none;
+    border-left: none;
+    border-color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+.b8d2{
+    float: left;
+    height: 350px;
+    width: 350px;
+    margin-left: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#F3CC4D;
+    border-radius: 15px;
+
+    
+}
+.b8i2{
+    height: 330px;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url("https://www.ferrerorocher.com/us/sites/ferrerorocher20_us/files/2022-11/social1.png?t=1714481071");
+}
+.icon2{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: solid;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+
+    
+}
+.b8d3{
+    float: left;
+    height: 350px;
+    width: 350px;
+    margin-left: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#F3CC4D;
+    border-radius: 15px;
+
+
+}
+.b8i3{
+    
+        height: 330px;
+        width: 330px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: white;
+        background-image: url("https://www.ferrerorocher.com/us/sites/ferrerorocher20_us/files/2021-11/200803_bb_ferrerorocher13521x1-410x410.jpg?t=1714481071");
+}
+.icon3{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: solid;
+    border-bottom-right-radius: 10px;
+    border-color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.footer{
+    float: left;
+    background-color:#281813 ;
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+}
+.fd{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+#f1i1{
+    padding-left:600px ;
+    padding-top: 40px;
+}
+.f1d1, .f1d2, .f1d3, .f1d4{
+    padding-top: 50px;
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+#f1h1,#f1h2, #f1h3,#f1h4{
+    color: #d5ac5b;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    font-family: "Cormorant Infant",serif;
+    text-align: center;
+
+}
+#firsth1, #firsth2, #firsth3 {
+font-family:sofia-pro,sans-serif ;
+font-size: 14px;
+text-align: center;
+color: white;
+}  
+
+.fourth1{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.fourth2{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+#firsth4{
+    font-family:sofia-pro,sans-serif ;
+    font-size: 14px;
+    color: white;
+}
+#if{
+    padding-left: 130px;
+}
+#ii{
+    padding-top: 30px;
+    padding-left: 130px;
+}
+#ip{
+    padding-top: 25px;
+    padding-left: 130px;
+}
+#iy{
+    padding-top: 20px;
+    padding-left: 130px;
+}
+.footer2{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #2b1b16;
+}
+#f2h1{
+    font-size: 14px;
+    color: #685d5a;
+    font-family: sofia-pro,sans-serif;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+body{
+    margin: 0;
+}
+
+
